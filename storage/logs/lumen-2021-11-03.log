@@ -1,0 +1,200 @@
+[2021-11-03 04:27:06] local.ERROR: Undefined index: field_name {"exception":"[object] (ErrorException(code: 0): Undefined index: field_name at C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\app\\Http\\Controllers\\ProcessFieldController.php:50)
+[stacktrace]
+#0 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RegistersExceptionHandlers.php(47): Laravel\\Lumen\\Application->handleError(8, 'Undefined index...', 'C:\\\\Users\\\\Niyog\\\\...', 50)
+#1 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\app\\Http\\Controllers\\ProcessFieldController.php(50): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(8, 'Undefined index...', 'C:\\\\Users\\\\Niyog\\\\...', 50, Array)
+#2 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\ProcessFieldController->add(Object(Laravel\\Lumen\\Http\\Request))
+#3 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#4 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#5 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#6 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#7 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(389): Illuminate\\Container\\Container->call(Array, Array)
+#8 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(355): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#9 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(329): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\ProcessFieldController), 'add', Array)
+#10 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(282): Laravel\\Lumen\\Application->callControllerAction(Array)
+#11 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(267): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#12 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#13 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(48): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#14 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\app\\Http\\Middleware\\CorsMiddleware.php(29): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#15 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\pipeline\\Pipeline.php(167): App\\Http\\Middleware\\CorsMiddleware->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#16 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#17 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\pipeline\\Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#18 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#19 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(175): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#20 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#21 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#22 {main}
+"} 
+[2021-11-03 05:18:41] local.ERROR: Object of class stdClass could not be converted to number {"exception":"[object] (ErrorException(code: 0): Object of class stdClass could not be converted to number at C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\app\\Http\\Controllers\\ProcessFieldController.php:57)
+[stacktrace]
+#0 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RegistersExceptionHandlers.php(47): Laravel\\Lumen\\Application->handleError(8, 'Object of class...', 'C:\\\\Users\\\\Niyog\\\\...', 57)
+#1 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\app\\Http\\Controllers\\ProcessFieldController.php(57): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(8, 'Object of class...', 'C:\\\\Users\\\\Niyog\\\\...', 57, Array)
+#2 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\ProcessFieldController->add(Object(Laravel\\Lumen\\Http\\Request))
+#3 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#4 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#5 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#6 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#7 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(389): Illuminate\\Container\\Container->call(Array, Array)
+#8 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(355): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#9 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(329): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\ProcessFieldController), 'add', Array)
+#10 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(282): Laravel\\Lumen\\Application->callControllerAction(Array)
+#11 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(267): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#12 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#13 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(48): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#14 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\app\\Http\\Middleware\\CorsMiddleware.php(29): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#15 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\pipeline\\Pipeline.php(167): App\\Http\\Middleware\\CorsMiddleware->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#16 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#17 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\pipeline\\Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#18 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#19 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(175): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#20 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#21 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#22 {main}
+"} 
+[2021-11-03 05:18:50] local.ERROR: Object of class stdClass could not be converted to number {"exception":"[object] (ErrorException(code: 0): Object of class stdClass could not be converted to number at C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\app\\Http\\Controllers\\ProcessFieldController.php:57)
+[stacktrace]
+#0 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RegistersExceptionHandlers.php(47): Laravel\\Lumen\\Application->handleError(8, 'Object of class...', 'C:\\\\Users\\\\Niyog\\\\...', 57)
+#1 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\app\\Http\\Controllers\\ProcessFieldController.php(57): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(8, 'Object of class...', 'C:\\\\Users\\\\Niyog\\\\...', 57, Array)
+#2 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\ProcessFieldController->add(Object(Laravel\\Lumen\\Http\\Request))
+#3 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#4 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#5 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#6 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#7 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(389): Illuminate\\Container\\Container->call(Array, Array)
+#8 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(355): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#9 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(329): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\ProcessFieldController), 'add', Array)
+#10 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(282): Laravel\\Lumen\\Application->callControllerAction(Array)
+#11 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(267): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#12 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#13 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(48): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#14 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\app\\Http\\Middleware\\CorsMiddleware.php(29): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#15 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\pipeline\\Pipeline.php(167): App\\Http\\Middleware\\CorsMiddleware->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#16 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#17 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\pipeline\\Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#18 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#19 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(175): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#20 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#21 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#22 {main}
+"} 
+[2021-11-03 05:25:32] local.ERROR: Cannot use object of type stdClass as array {"exception":"[object] (Error(code: 0): Cannot use object of type stdClass as array at C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\app\\Http\\Controllers\\ProcessFieldController.php:57)
+[stacktrace]
+#0 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\ProcessFieldController->add(Object(Laravel\\Lumen\\Http\\Request))
+#1 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#2 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#3 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#4 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#5 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(389): Illuminate\\Container\\Container->call(Array, Array)
+#6 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(355): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#7 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(329): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\ProcessFieldController), 'add', Array)
+#8 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(282): Laravel\\Lumen\\Application->callControllerAction(Array)
+#9 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(267): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#10 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#11 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(48): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#12 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\app\\Http\\Middleware\\CorsMiddleware.php(29): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#13 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\pipeline\\Pipeline.php(167): App\\Http\\Middleware\\CorsMiddleware->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#14 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#15 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\pipeline\\Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#16 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#17 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(175): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#18 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#19 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#20 {main}
+"} 
+[2021-11-03 05:25:51] local.ERROR: Cannot use object of type stdClass as array {"exception":"[object] (Error(code: 0): Cannot use object of type stdClass as array at C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\app\\Http\\Controllers\\ProcessFieldController.php:57)
+[stacktrace]
+#0 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\ProcessFieldController->add(Object(Laravel\\Lumen\\Http\\Request))
+#1 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#2 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#3 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#4 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#5 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(389): Illuminate\\Container\\Container->call(Array, Array)
+#6 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(355): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#7 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(329): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\ProcessFieldController), 'add', Array)
+#8 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(282): Laravel\\Lumen\\Application->callControllerAction(Array)
+#9 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(267): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#10 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#11 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(48): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#12 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\app\\Http\\Middleware\\CorsMiddleware.php(29): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#13 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\pipeline\\Pipeline.php(167): App\\Http\\Middleware\\CorsMiddleware->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#14 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#15 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\pipeline\\Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#16 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#17 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(175): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#18 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#19 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#20 {main}
+"} 
+[2021-11-03 05:28:36] local.ERROR: Cannot use object of type stdClass as array {"exception":"[object] (Error(code: 0): Cannot use object of type stdClass as array at C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\app\\Http\\Controllers\\ProcessFieldController.php:57)
+[stacktrace]
+#0 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\ProcessFieldController->add(Object(Laravel\\Lumen\\Http\\Request))
+#1 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#2 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#3 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#4 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#5 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(389): Illuminate\\Container\\Container->call(Array, Array)
+#6 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(355): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#7 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(329): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\ProcessFieldController), 'add', Array)
+#8 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(282): Laravel\\Lumen\\Application->callControllerAction(Array)
+#9 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(267): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#10 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#11 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(48): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#12 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\app\\Http\\Middleware\\CorsMiddleware.php(29): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#13 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\pipeline\\Pipeline.php(167): App\\Http\\Middleware\\CorsMiddleware->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#14 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#15 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\pipeline\\Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#16 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#17 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(175): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#18 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#19 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#20 {main}
+"} 
+[2021-11-03 05:35:12] local.ERROR: Cannot use object of type stdClass as array {"exception":"[object] (Error(code: 0): Cannot use object of type stdClass as array at C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\app\\Http\\Controllers\\ProcessFieldController.php:57)
+[stacktrace]
+#0 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\ProcessFieldController->add(Object(Laravel\\Lumen\\Http\\Request))
+#1 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#2 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#3 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#4 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#5 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(389): Illuminate\\Container\\Container->call(Array, Array)
+#6 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(355): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#7 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(329): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\ProcessFieldController), 'add', Array)
+#8 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(282): Laravel\\Lumen\\Application->callControllerAction(Array)
+#9 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(267): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#10 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#11 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(48): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#12 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\app\\Http\\Middleware\\CorsMiddleware.php(29): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#13 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\pipeline\\Pipeline.php(167): App\\Http\\Middleware\\CorsMiddleware->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#14 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#15 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\pipeline\\Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#16 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#17 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(175): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#18 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#19 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#20 {main}
+"} 
+[2021-11-03 05:40:04] local.ERROR: Undefined index: process_area {"exception":"[object] (ErrorException(code: 0): Undefined index: process_area at C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\app\\Http\\Controllers\\ProcessFieldController.php:52)
+[stacktrace]
+#0 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RegistersExceptionHandlers.php(47): Laravel\\Lumen\\Application->handleError(8, 'Undefined index...', 'C:\\\\Users\\\\Niyog\\\\...', 52)
+#1 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\app\\Http\\Controllers\\ProcessFieldController.php(52): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(8, 'Undefined index...', 'C:\\\\Users\\\\Niyog\\\\...', 52, Array)
+#2 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\ProcessFieldController->add(Object(Laravel\\Lumen\\Http\\Request))
+#3 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#4 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#5 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#6 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#7 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(389): Illuminate\\Container\\Container->call(Array, Array)
+#8 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(355): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#9 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(329): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\ProcessFieldController), 'add', Array)
+#10 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(282): Laravel\\Lumen\\Application->callControllerAction(Array)
+#11 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(267): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#12 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#13 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(48): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#14 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\app\\Http\\Middleware\\CorsMiddleware.php(29): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#15 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\pipeline\\Pipeline.php(167): App\\Http\\Middleware\\CorsMiddleware->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#16 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#17 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\illuminate\\pipeline\\Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#18 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#19 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(175): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#20 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#21 C:\\Users\\Niyog\\Desktop\\CV_web_project\eactjs-lumen-part-1\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#22 {main}
+"} 
